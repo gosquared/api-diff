@@ -1,0 +1,2 @@
+-XGET -H 'Content-Type: application/json' {HOST}/
+-XPOST -H 'Content-Type: application/json' {HOST}/ -d '{}'
