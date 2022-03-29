@@ -1,5 +1,5 @@
 {
-  "name": "api-compare",
+  "name": "api-diff",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,8 +11,8 @@
     "watch": "tsc -w"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Geoff Wagstaff <geoff@gosquared.com>",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^17.0.23",
     "json-diff": "^0.7.3",
