@@ -13,6 +13,13 @@ import {$, argv, question} from 'zx'
 import { createReadStream } from 'fs';
 import { createInterface } from 'readline';
 
+if (argv.help) {
+  console.log(`
+  npx api-diff reqs.txt --host-a test.com --host-b test2.com
+  `);
+  process.exit();
+}
+
 function open_file(path: string) {
   const stream = createReadStream(path);
 
